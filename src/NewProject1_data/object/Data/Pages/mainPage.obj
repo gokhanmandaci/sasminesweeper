@@ -1,0 +1,24 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page1" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="7005F29E-C54B-4907-870B-B48E78FF68C3" Nm="Container1" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="280%" W="31411d" H="31411d" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="1" BgTparent="0" BgClr="eff3ef" />
+		</CONTAINER>
+		<BTN ID="B380749E-A313-46F1-A482-A67592EBF53E" Nm="TextButton1" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+			<LCT X="136%" Y="119%" W="750%" H="100%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgClr="b5ba27" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;New Game&quot;" />
+			</DATA>
+			<ONPRESSED script="Page1_TextButton1_OnPressed(e);" />
+		</BTN>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Page1_Self_OnShow(e);" />
+		<ONKEYP script="Page1_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>
