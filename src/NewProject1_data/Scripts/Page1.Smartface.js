@@ -15,8 +15,19 @@ function Page1_Self_OnShow() {
     randomNmrGen();
 }
 function Page1_TextButton1_OnPressed(e){
+    if(Pages.Page1.EditBox1.text == "")
+    {
+    mayinSayisi = 10;
+    }else{
+    mayinSayisi = parseInt(Pages.Page1.EditBox1.text);
+    }
     counter = 0;
     Pages.Page1.Container1.touchEnabled = true;
     Pages.Page1.Container1.clear();
+    controlArr = [];
+    arroundArr = [];
     randomNmrGen();
+}
+function Page1_EditBox1_OnExit(e){
+    Page1_TextButton1_OnPressed();
 }
