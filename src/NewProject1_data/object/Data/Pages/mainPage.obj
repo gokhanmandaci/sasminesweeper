@@ -16,7 +16,7 @@
 			</DATA>
 			<ONPRESSED script="Page1_TextButton1_OnPressed(e);" />
 		</BTN>
-		<EDIT ID="8B9353A9-8A6C-4A88-965F-0C3425A7C06E" Nm="EditBox1" Type="5" Mask="" MaxLength="0" MinLength="0" MaxValue="0" MinValue="0" ConstraintType="0" ConstraintChars="" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" MtLn="0" PxlEdg="5" ReturnKey="0" EnableClearButton="1" EnableUpperCase="0">
+		<EDIT ID="8B9353A9-8A6C-4A88-965F-0C3425A7C06E" Nm="EditBox1" Type="2" Mask="" MaxLength="0" MinLength="0" MaxValue="0" MinValue="0" ConstraintType="0" ConstraintChars="" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" MtLn="0" PxlEdg="5" ReturnKey="0" EnableClearButton="1" EnableUpperCase="0">
 			<LCT X="125%" Y="876%" W="750%" H="100%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
 			<PlaceHolder>
 				<PRM Nm="Bind" Val="&quot;Mayın Sayısı&quot;" />
@@ -24,7 +24,7 @@
 			<FONT FName="Default" FSize="8p" AdjustFSize="0" MinFSize="7" FColor="7a7a7a" FStyle="0" Undrln="0" />
 			<STYLE BgTparent="0" BgClr="ffffff" BrClr="999999" BrW="1" ActBrClr="cc6633" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
 			<DATA>
-				<PRM Nm="Bind" Val="" />
+				<PRM Nm="Bind" Val="&quot;Edit&quot;" />
 			</DATA>
 			<ONEXIT script="Page1_EditBox1_OnExit(e);" />
 		</EDIT>
